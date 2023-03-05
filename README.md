@@ -6,7 +6,7 @@
 
 2. [Instal Anaconda and execute the notebook locally y ejecutar el notebook localmente](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)
 ```
-conda create --name fluent-python
+conda create --name fluent-python python=3.10.4 ipython
 conda activate fluent-python
 conda install jupyter
 jupyter notebook
